@@ -1,296 +1,247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!-- <link href="css/main.css" rel="stylesheet"> -->
-  <title>Jukka Ahlgren</title>
+  <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic%7CRaleway:400,300,700'
+    rel='stylesheet'>
+  <link href="css/style.css" rel="stylesheet">
+
+  <title>Jukka Ahlgren portfolio</title>
 </head>
 
 <body>
-  <header class="header" id="headerwrap">
+  <header class="header jumbotron">
     <div class="container">
-      <div class="row centered">
+      <div class="row">
         <div class="col-lg-12">
           <h1>Jukka Ahlgren</h1>
-          <h3>Web designer|
+          <h3>Opiskelija |
             <a href="mailto:jukka.ahlgren@helsinki.fi">
               jukka.ahlgren@helsinki.fi</a>
           </h3>
         </div>
-        <!--/.col-lg-12-->
       </div>
-      <!--/.row-->
     </div>
-    <!--/.container-->
   </header>
-  <!--/.#headerwrap-->
-
-  <section id="about" title="about">
-    <div class="about">
+  <main>
+    <section class="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-2 col-lg-offset-1">
             <h5>TIETOJA</h5>
           </div>
           <div class="col-lg-6">
-            <p> Hei, olen Jukka Ahlgren tietojenkäsittelytieteen
+            <p> Hei, olen tietojenkäsittelytieteen
               opiskelija Helsingin avoimessa yliopistossa,
               tarkoituksena myos päästä pääaineopiskelijaksi.
               Olen aloittanut ohjelmoinnin 80-luvulla ja nyt päättänyt
               kehittää taitojani tätä kautta.
           </div>
+          <div class="col-lg-3">
+            <p>
+              <a href="my-resume.pdf">
+                <i class="fas fa-file-download"></i>
+                <span>DOWNLOAD PDF</span>
+              </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <article id="resume" name="resume">
+      <!-- EDUCATION SECTION -->
+      <div class="container desc">
+        <div class="row">
 
-  <section id="resume" title="resume">
-    <!-- EDUCATION SECTION -->
-    <div class="container desc">
-      <div class="row">
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>KOULUTUS</h5>
+          </div>
+          <!-- EDIT: education line 1 -->
+          <div class="col-lg-6">
+            <p>
+              <t>Bachelor of Awesomeness</t><br />
+              University of Maryland
+              <!--<br/><i>Extra info here</i>-->
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>Expected SPRING 2015</sm><br />
+              <imp>
+                <sm>IN PROGRESS</sm>
+              </imp>
+            </p>
+          </div>
 
-        <div class="col-lg-2 col-lg-offset-1">
-          <h5>KOULUTUS</h5>
+          <!-- EDIT: education line 2 -->
+          <div class="col-lg-6 col-lg-offset-3">
+            <p>
+              <t>Associate of Degrees </t><br />
+              Lil 'ol College
+              <!--<br/><i>Extra info here</i>-->
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>JUNE 2012</sm>
+            </p>
+          </div>
+
         </div>
-        <!-- EDIT: education line 1 -->
-        <div class="col-lg-6">
-          <p>
-            Tietojenkäsittelytieteen kandidaatti<br>
-            Helsingin yliopisto
-            <!--<br/><i>Extra info here</i>-->
-          <section>
-            <h6>Suoritetut kurssit</h6>
-            <ul>
-              <li>ohjelmoinnin perusteet
-              <li>ohjelmoinnin jatkokurssi
-              <li>tietokantojen perusteet
-              <li>web-palvelinohjelmointi java
-              <li>full stack -websovelluskehitys
-              <li>ohjelmistotuotanto
-              <li>Cyber Security Base: Introduction to Cyber Security
-            </ul>
-          </section>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            Odotettu valmistuminen KEVÄT 2023<br>
-            MENEILLÄÄN
-        </div>
-        <!-- EDIT: education line 2 -->
-        <div class="col-lg-6 col-lg-offset-3">
-          <p>
-            Ylioppilas<br />
-            Lohjan lukio
-        </div>
-        <div class="col-lg-3">
-          <p>
-            TOUKOKUU 1978
-        </div>
+        <!--/.row -->
+        <br>
+        <hr>
       </div>
-      <!--/.row -->
-      <br>
-      <hr>
-    </div>
-    <!--/.container -->
-  </section>
+      <!--/.container -->
 
-  <!-- WORK SECTION -->
-  <div class="container desc">
-    <div class="row">
+      <!-- WORK SECTION -->
+      <div class="container desc">
+        <div class="row">
 
-      <div class="col-lg-2 col-lg-offset-1">
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>WORK</h5>
+          </div>
+          <!-- EDIT: work line 1 -->
+          <div class="col-lg-6">
+            <p class="tight">
+              <t>Position </t><br />
+              Thatone Corp. <br />
+            </p>
+            <p>
+              <more>Here's where you put a description of the position you held. Responsibilities, accomplishments - the
+                same as you would do on a standard paper resume, but this will be online and look cooler.</more>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>AUGUST 2012 - CURRENT <br />
+                CITY, STATE, COUNTRY</sm>
+            </p>
+          </div>
+
+          <!-- EDIT: work line 2-->
+          <div class="col-lg-6 col-lg-offset-3">
+            <p class="tight">
+              <t>Previous Position</t><br />
+              Another Organization Ltd. <br />
+            </p>
+            <p>
+              <more>You worked at another job! Great! Describe waht you did there, include those responsibilities and
+                accomplishments again.</more>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>JUNE 2010 - JULY 2012 <br />
+                GOTHAM CITY, USA</sm>
+            </p>
+          </div>
+        </div>
+        <!--/.row -->
+        <br>
+        <hr>
+      </div>
+      <!--/.container -->
+
+
+      <!-- AWARDS SECTION -->
+      <div class="container desc">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1">
+            <h5>AWARDS</h5>
+          </div>
+
+          <!-- EDIT: awards line 1-->
+          <div class="col-lg-6">
+            <p>
+              <t>Best Smile Award</t><br />
+              Award-giving organization<br />
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>NOVEMBER 2013</sm>
+            </p>
+          </div>
+
+          <!-- EDIT: awards line 2-->
+          <div class="col-lg-6 col-lg-offset-3">
+            <p class="tight">
+              <t>Another award</t><br />
+              Awards Site
+            </p>
+            <p>
+              <more>This award has a description. You won it eating pie. Or probably doing something more job-related.
+                Maybe you won't even keep this section - you'll replace it with Skills or something else!</more>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <sm>2013</sm>
+            </p>
+          </div>
+
+        </div>
+        <!--/.row -->
+        <br>
+      </div>
+      <!--/.container -->
+    </article>
+
+    <section class="container desc">
+      <header>
         <h5>TYÖKOKEMUS</h5>
-      </div>
-      <!-- EDIT: work line 1 -->
-      <div class="col-lg-6">
-        <p class="tight">
-          Työpaikka <br>
-          Uudenmaan tiepiiri<br>
-        <p>
-          Unix ja PC ylläpito. Projekteina mm. maalabran
-          automisoitu tulosten käsittely ja konsulttilaskutusten
-          siirto koneelle.
-      </div>
-      <div class="col-lg-3">
-        <p>
-          1983 - 1992 <br>
-          Helsinki
-      </div>
-
-      <!-- EDIT: work line 2-->
-      <div class="col-lg-6 col-lg-offset-3">
-        <p class="tight">
-          Työpaikka <br>
-          Uudenmaan sotilasläänin esikunta<br>
-        <p>
-          unix ja NT-ympäristöjen ylläpito
-      </div>
-      <div class="col-lg-3">
-        <p>
-          1995 - 2002 <br>
-          Lohja
-      </div>
-    </div>
-
-    <!-- EDIT: work line 3-->
-    <div class="col-lg-6 col-lg-offset-3">
-      <p class="tight">
-        Työpaikka <br>
-        Idea-Uusilänsi<br>
+      </header>
+    </section>
+    <section class="container desc">
+      <header>
+        <h5>TAIDOT JA TIEDOT</h5>
+      </header>
+    </section>
+    <section class="container desc">
+      <header>
+        <h5>PALKINNOT</h5>
+      </header>
+    </section>
+  </main>
+  <footer class="container-fluid footer">
+    <h5>YHTEYSTIEDOT</h5>
+    <address>
       <p>
-        Asiakkaiden avustaminen tietokone ongelmissa.
-    </div>
-    <div class="col-lg-3">
+        Email<br />
+        <a href="mailto:jukka.ahlgren@helsinki.fi" target="_blank" class="mail">jukka.ahlgren@helsinki.fi</a> <br>
       <p>
-        2004 - 2005 <br>
-        Lohja
-    </div>
-    <!-- EDIT: work line 4-->
-
-    <div class="col-lg-6 col-lg-offset-3">
-      <p class="tight">
-        Työpaikka <br>
-        it-innoo<br>
+        Osoite<br>
+        Metsäkorventie 10 B 15<br>
+        08500, Lohja<br>
+        Finland<br>
       <p>
-        Kotisivujen kehittäminen ja ylläpito asiakkaille,
-        sekä it neuvontaa.
-    </div>
-    <div class="col-lg-3">
-      <p>
-        2009 - <br>
-        Lohja
-    </div>
-    <!--/.row -->
-    <br>
-    <hr>
-  </div>
-  <!--/.container -->
-
-  <!-- SKILLS SECTION -->
-  <section>
-    <div class="container desc">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-          <h3>TAIDOT JA TIEDOT</h3>
-        </div>
-        <!-- EDIT: skills line 1 -->
-        <div class="col-lg-6">
-          <section>
-            <h6>Ohjelmointikielet ja työkalut</h6>
-            <ul>
-              <li>c
-              <li>java
-              <li>python
-              <li>HTML5
-              <li>CSS3
-              <li>javascript
-              <li>react
-            </ul>
-          </section>
-        </div>
-      </div>
-      <!--/.row -->
-      <br>
-      <hr>
-    </div>
-    <!--/.container -->
-  </section>
-
-  <section>
-    <!-- AWARDS SECTION -->
-    <div class="container desc">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-1">
-          <h3>PALKINNOT</h3>
-        </div>
-
-        <!-- EDIT: awards line 1-->
-        <div class="col-lg-6">
-          <p>
-            Kitaransoiton stipendi<br />
-            Lohjan musiikkiopisto<br />
-        </div>
-        <div class="col-lg-3">
-          <p>1977
-        </div>
-
-        <!-- EDIT: awards line 2-->
-        <!--
-        <div class="col-lg-6 col-lg-offset-3">
-          <p class="tight">
-            <t>Another award</t><br />
-            Awards Site
-          </p>
-          <p>
-            <more>This award has a description. You won it eating pie. Or probably doing something more job-related.
-              Maybe you won't even keep this section - you'll replace it with Skills or something else!</more>
-          </p>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            <sm>2013</sm>
-          </p>
-        </div>
-      -->
-
-      </div>
-      <!--/.row -->
-      <br>
-      <hr>
-    </div>
-    <!--/.container -->
-  </section>
-
-  <!--FOOTER DESCRIPTION -->
-  <footer id="footwrap" class="footer">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-2 col-lg-offset-1">
-          <h5>YHTEYSTIEDOT</h5>
-        </div>
-        <div class="col-lg-6">
-          <p>
-            Email<br />
-            <a href="mailto:jukka.ahlgren@helsinki.fi" target="_blank" class="mail">jukka.ahlgren@helsinki.fi</a> <br>
-          <p>
-            Address<br>
-            Metsäkorventie 10 B 15<br>
-            08500, Lohja<br>
-            Finland<br>
-          <p>
-            Puh<br>
-            <a href="tel:+358414770369" class="tel">+358414770369</a>
-            <br>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            SOME
-          <p>
-            <!-- EDIT: Social Links. Replace # with your URL for each -->
-            <a href="#" target="_blank">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-            <a href="https://facebook.com" target="_blank">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="#" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-        </div>
-      </div>
-      <!--/.row -->
-    </div>
-    <!--/.container -->
+        Puh<br>
+        <a href="tel:+358414770369" class="tel">+358414770369</a>
+        <br>
+    </address>
+    <p>
+      <!-- EDIT: Social Links. Replace # with your URL for each -->
+      <a href="https://twitter.com/JukkaAhlgren" target="_blank">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="https://www.facebook.com/jukka.ahlgren.9/" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/jahlgren-hy" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
   </footer>
-  <!--/ #footer -->
-  <script src="https://kit.fontawesome.com/4e35c8f3be.js" crossorigin="anonymous">
-  </script>
+
+  <script src="https://kit.fontawesome.com/4e35c8f3be.js" crossorigin="anonymous" defer></script>
 </body>
