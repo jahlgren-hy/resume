@@ -108,3 +108,28 @@ header h1 {
   color: #34495e;
   font-weight: 700;
 }
+
+.desc imp {
+  padding: 6px;
+  color: white;
+  background: #34495e;
+}
+
+.desc more {
+  color: #616669;
+}
+
+
+sm {
+  font-size: 12px;
+}
+
+.desc .col-lg-3 {
+  text-transform: uppercase;
+}
+
+.container .row p.tight {
+  margin-bottom: 10px;
+}
+
+/* define some CSS3 animations: */
