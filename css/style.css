@@ -9,10 +9,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font: 300 16px Raleway;
+  font: 300 14px Raleway;
 }
-
-/* Paragraph & Typographic */
 
 /*---------------------------------------------------
 SECTION WRAPS
@@ -22,6 +20,7 @@ SECTION WRAPS
 .jumbotron {
   background: #1cbcad url(../images/header-bg.jpg) no-repeat scroll center center;
   text-align: center;
+  margin: 0 auto;
   min-height: 500px;
   padding-top:150px;
   width: 100%
@@ -39,4 +38,31 @@ SECTION WRAPS
 
 .jumbotron h3 a {
   color: white;
+}
+
+/* Intnro Wrap */
+
+.intro {
+  background: #2c3e50;
+  color: white;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.intro h5 {
+  color: white;
+}
+
+.intro span {
+  color: white;
+  /* font-size: 20px; */
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+/* Global Values */
+
+.desc {
+  padding-top: 40px;
 }
