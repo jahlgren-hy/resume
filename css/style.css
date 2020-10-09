@@ -1,7 +1,42 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
-  font-weight: 300;
-  font-size: 16px;
   color: #555;
+  font: 300 16px Lato;
+}
+
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font: 300 16px Raleway;
+}
+
+/* Paragraph & Typographic */
+
+/*---------------------------------------------------
+SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+.jumbotron {
+  background: #1cbcad url(../images/header-bg.jpg) no-repeat scroll center center;
+  text-align: center;
+  min-height: 500px;
+  padding-top:150px;
+  width: 100%
+}
+
+.jumbotron h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.jumbotron h3 a {
+  color: white;
 }
