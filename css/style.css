@@ -67,21 +67,22 @@ SECTION WRAPS
   color: white;
 }
 
-#skillswrap h5 {
+.skillswrap h5,
+  .skillswrap p {
   color: white;
 }
 
 /* Global Values */
 
-.job p {
-  color: #2f2f2f;
+.description p {
+  color: #2f2f2f
 }
 
-.job {
+.item-header {
   color: #34495e;
   font-weight: 700;
 }
 
-.job-description {
+.more {
   color: #95a5a6;
 }

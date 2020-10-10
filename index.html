@@ -41,7 +41,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h5>TIETOJA</h5>
+          <h5 class="text-uppercase">tietoja</h5>
         </div>
         <div class="col-6">
           <p>
@@ -70,17 +70,16 @@
       </header>
       <!-- EDUCATION SECTION -->
       <section id="education">
-        <div class="container pt-5">
+        <div class="container description pt-5">
           <div class="row">
             <div class="col">
-              <h5>KOULUTUS</h5>
+              <h5 class="text-uppercase">koulutus</h5>
             </div>
             <div class="col-6">
-              <p>
-                Tietojenkäsittelytieteen kandidaatti<br>
-                Helsingin yliopisto<br>
+              <p class="item-header">
+                Tietojenkäsittelytieteen kandidaatti</p>
+              <p>Helsingin yliopisto<br>
                 <em>4 vuoden kurssi</em>
-              </p>
               <details>
                 <summary>Click to open</summary>
                 <p>Collapsible content...
@@ -95,11 +94,11 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row pt-3">
             <div class="col-6 offset-3">
-              <p class="tight">
-                Ylioppilas<br>
-                Lohjan lukio<br>
+              <p class="item-header">
+                Ylioppilas</p>
+              <p>Lohjan lukio<br>
                 <em>3 vuoden kurssi</em>
             </div>
             <div class="col">
@@ -111,18 +110,18 @@
       </section>
       <!-- WORK SECTION -->
       <section id="work">
-        <div class="container pt-5">
+        <div class="container descrition pt-5">
           <div class="row">
             <div class="col">
               <h5 class="text-uppercase">työkokemus</h5>
             </div>
             <div class="col-6">
-              <p class="job">
+              <p class="item-header">
                 Atk-suunnittelija
               <p>Uudenmaan tiepiiri
-              <p class="job-description">
+              <p class="more">
                 Unix ja PC ylläpito. Projekteina mm. maalabran
-                automisoitu tulosten käsittely ja konsulttilaskutusten
+                automatisoitu tulosten käsittely ja konsulttilaskutusten
                 siirto koneelle.
             </div>
             <div class="col">
@@ -135,10 +134,10 @@
 
           <div class="row">
             <div class="col-6 offset-3">
-              <p class="job">
+              <p class="item-header">
                 Atk-suunnittelija
               <p>Uudenmaan sotilasläänin esikunta
-              <p class="job-description">
+              <p class="more">
                 unix ja NT-ympäristöjen ylläpito
             </div>
             <div class="col">
@@ -151,10 +150,10 @@
 
           <div class="row">
             <div class="col-6 offset-3">
-              <p class="job">
+              <p class="item-header">
                 Helpdesk
               <p>Idea-Uusilänsi
-              <p class="job-description">
+              <p class="more">
                 Asiakkaiden avustaminen tietokone ongelmissa.
             </div>
             <div class="col">
@@ -166,10 +165,10 @@
           </div>
           <div class="row">
             <div class="col-6 offset-3">
-              <p class="job">
+              <p class="item-header">
                 Consultant
               <p>it-innoo
-              <p class="job-description">
+              <p class="more">
                 Kotisivujen kehittäminen ja ylläpito asiakkaille,
                 sekä it neuvontaa.
             </div>
@@ -183,65 +182,59 @@
         </div>
         <hr>
       </section>
-      <!-- SKILLS SECTION -->
-      <section id="skills" class="container pt-5">
-        <div class="row">
-          <div class="col">
-            <h5 class="text-uppercase">tiedot ja taidot</h5>
-          </div>
-          <div class="col-6">
-            <ul>
-              <li>c
-              <li>java
-              <li>python
-              <li>HTML5
-              <li>CSS3
-              <li>javascript
-              <li>react
-            </ul>
-          </div>
-          <div class="col">
-          </div>
-        </div>
-        <hr>
-      </section>
       <!-- AWARDS SECTION -->
       <section id="awards">
-        <div class="container pt-5">
+        <div class="container descrition pt-5">
           <div class="row">
             <div class="col">
               <h5 class="text-uppercase">palkinnot</h5>
             </div>
             <div class="col-6">
-              <p>
-                Kitaransoiton stipendi<br>
-                Lohjan musiikkiopisto
+              <p class="item-header">
+                Kitaransoiton stipendi
+              <p>Lohjan musiikkiopisto
             </div>
             <div class="col">
               <small>1977</small>
             </div>
           </div>
-          <!-- EDIT: awards line 2-->
+
           <div class="row">
             <div class="col-6 offset-3">
-              <p class="tight">
-                Another award<br>
-                Joku toinen myöntäjä
-              <details>
-                <summary>Click to open</summary>
-                <p>Collapsible content...</p>
-              </details>
+              <p class="item-header">
+                2. palkinto runonlausunnassa
+              <p>Lohjan kaupunki
             </div>
             <div class="col">
               <small>1969</small>
             </div>
           </div>
         </div>
-        <hr>
       </section>
     </div>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="container description skillswrap pt-5">
+      <div class="row">
+        <div class="col">
+          <h5 class="text-uppercase">tiedot ja taidot</h5>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>c
+            <li>java
+            <li>python
+            <li>HTML5
+            <li>CSS3
+            <li>javascript
+            <li>react
+          </ul>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </section>
   </article>
-  <footer id="info" class="footer">
+  <footer id="info" class="footer pt-5">
     <div class="container">
       <div class="row">
         <div class="col">
