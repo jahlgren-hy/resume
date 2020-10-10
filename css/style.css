@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5, h6 {
   font: 300 14px Raleway;
 }
 
+/* Paragraph & Typographic
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+*/
+
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
@@ -68,7 +76,25 @@ SECTION WRAPS
 }
 
 .skillswrap h5,
-  .skillswrap p {
+.skillswrap p {
+  color: white;
+}
+
+.footerwrap {
+  background: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerwrap p {
+  color: white;
+}
+
+.footerwrap h5 {
+  color: white;
+}
+
+.footerwrap a {
   color: white;
 }
 
