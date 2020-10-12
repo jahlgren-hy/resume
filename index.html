@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- OPTIONAL: description -->
   <meta name="description" content="resume">
-  <!-- OPTIONAL:
   <meta name="author" content="Jukka Ahlgren">
+  <!-- OPTIONAL:
   <link rel=" shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="icon.png" />
  -->
@@ -24,7 +23,45 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+        aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#home"><i class="fas fa-home"></i></a>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="nav-content">
+        <ul class="navbar-nav">
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="Preview">
+              <a class="dropdown-item" href="#">Dropdown Link 1</a>
+              <a class="dropdown-item" href="#">Dropdown Link 2</a>
+              <a class="dropdown-item" href="#">Dropdown Link 3</a>
+            </div>-->
+          <li class="menu-item"><a href="#about" title="About"><i class="fas fa-user"></i></a></li>
+          <li class="menu-item"><a href="#resume" title="Resume"><i class="fas fa-file-alt"></i></a></li>
+          <li class="menu-item"><a href="#skills" title="Works"><i class="fas fa-briefcase"></i></a>
+          </li>
+          <li class="menu-item"><a href="#info" title="Info"><i class="fas fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
   <header class="jumbotron">
     <div class="container">
       <h1>Jukka Ahlgren</h1>
@@ -36,7 +73,7 @@
   </header>
   <!-- ABOUT SECTION -->
   <section id="about" class="intro" title="about">
-    <div class="container">
+    <div class="container ">
       <div class="row">
         <div class="col">
           <h5 class="text-uppercase">tietoja</h5>
@@ -61,186 +98,178 @@
     </div>
   </section>
   <!-- RESUME SECTION -->
-  <article id="resume">
-    <div class="container">
-      <header class="d-none">
-        <h5 class="hidden">RESUME</h5>
-      </header>
-      <!-- EDUCATION SECTION -->
-      <section id="education">
-        <div class="container description pt-5">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-uppercase">koulutus</h5>
-            </div>
-            <div class="col-6">
-              <p class="item-header">
-                Tietojenkäsittelytieteen kandidaatti</p>
-              <p>Helsingin yliopisto<br>
-                <em>4 vuoden kurssi</em>
-              <details>
-                <summary class="font-italic">Click to open</summary>
-                <p class="h6 more pt-3">Suoritetut kurssit</p>
-                <ul class="more">
-                  <li>ohjelmoinnin perusteet
-                  <li>ohjelmoinnin jatkokurssi
-                  <li>tietokantojen perusteet
-                  <li>web-palvelinohjelmointi java
-                  <li>full stack -websovelluskehitys
-                  <li>ohjelmistotuotanto
-                  <li>Cyber Security Base: Introduction to Cyber Security
-                </ul>
-              </details>
-            </div>
-            <div class="col">
-              <small>
-                Valmistuminen 2023
-              </small>
-              <br>
-              <p class="badge badge-primary">meneillään
-            </div>
-          </div>
-
-          <div class="row pt-3">
-            <div class="col-6 offset-3">
-              <p class="item-header">
-                Ylioppilas</p>
-              <p>Lohjan lukio<br>
-                <em>3 vuoden kurssi</em>
-            </div>
-            <div class="col">
-              <small>1978</small>
-            </div>
-          </div>
-        </div>
-        <hr>
-      </section>
-      <!-- WORK SECTION -->
-      <section id="work">
-        <div class="container descrition pt-5">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-uppercase">työkokemus</h5>
-            </div>
-            <div class="col-6">
-              <p class="item-header">
-                Atk-suunnittelija
-              <p>Uudenmaan tiepiiri
-              <p class="more">
-                Unix ja PC ylläpito. Projekteina mm. maalabran
-                automatisoitu tulosten käsittely ja konsulttilaskutusten
-                siirto koneelle.
-            </div>
-            <div class="col">
-              <small>
-                1983 - 1992 <br>
-                Helsinki
-              </small>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-6 offset-3">
-              <p class="item-header">
-                Atk-suunnittelija
-              <p>Uudenmaan sotilasläänin esikunta
-              <p class="more">
-                unix ja NT-ympäristöjen ylläpito
-            </div>
-            <div class="col">
-              <small>
-                1995 - 2000 <br>
-                Lohja
-              </small>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-6 offset-3">
-              <p class="item-header">
-                Helpdesk
-              <p>Idea-Uusilänsi
-              <p class="more">
-                Asiakkaiden avustaminen tietokone ongelmissa.
-            </div>
-            <div class="col">
-              <small>
-                2004 - 2005 <br>
-                Lohja
-              </small>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6 offset-3">
-              <p class="item-header">
-                Consultant
-              <p>it-innoo
-              <p class="more">
-                Kotisivujen kehittäminen ja ylläpito asiakkaille,
-                sekä it neuvontaa.
-            </div>
-            <div class="col">
-              <small>
-                2009 - <br>
-                Lohja
-              </small>
-            </div>
-          </div>
-        </div>
-        <hr>
-      </section>
-      <!-- AWARDS SECTION -->
-      <section id="awards">
-        <div class="container descrition pt-5">
-          <div class="row">
-            <div class="col">
-              <h5 class="text-uppercase">palkinnot</h5>
-            </div>
-            <div class="col-6">
-              <p class="item-header">
-                Kitaransoiton stipendi
-              <p>Lohjan musiikkiopisto
-            </div>
-            <div class="col">
-              <small>1977</small>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-6 offset-3">
-              <p class="item-header">
-                2. palkinto runonlausunnassa
-              <p>Lohjan kaupunki
-            </div>
-            <div class="col">
-              <small>1969</small>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="container-fluid description skillswrap pt-5">
+  <!-- EDUCATION SECTION -->
+  <section id="resume" title="resume">
+    <div class="container description pt-5">
       <div class="row">
-        <div class="col offset-2">
-          <h5 class="text-uppercase">tiedot ja taidot</h5>
+        <div class="col">
+          <h5 class="text-uppercase">koulutus</h5>
         </div>
         <div class="col-6">
-          <ul>
-            <li>c
-            <li>java
-            <li>python
-            <li>HTML5
-            <li>CSS3
-            <li>javascript
-            <li>react
-          </ul>
+          <p class="item-header">
+            Tietojenkäsittelytieteen kandidaatti</p>
+          <p>Helsingin yliopisto<br>
+            <em>4 vuoden kurssi</em>
+          <details>
+            <summary class="font-italic">Suoritetut kurssit</summary>
+            <ul class="more">
+              <li>ohjelmoinnin perusteet
+              <li>ohjelmoinnin jatkokurssi
+              <li>tietokantojen perusteet
+              <li>web-palvelinohjelmointi java
+              <li>full stack -websovelluskehitys
+              <li>ohjelmistotuotanto
+              <li>Cyber Security Base: Introduction to Cyber Security
+            </ul>
+          </details>
         </div>
         <div class="col">
+          <small>
+            Valmistuminen 2023
+          </small>
+          <br>
+          <p class="badge badge-primary">meneillään
         </div>
       </div>
-    </section>
-  </article>
+
+      <div class="row pt-3">
+        <div class="col-6 offset-3">
+          <p class="item-header">
+            Ylioppilas</p>
+          <p>Lohjan lukio<br>
+            <em>3 vuoden kurssi</em>
+        </div>
+        <div class="col">
+          <small>1978</small>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- WORK SECTION -->
+  <section id="work">
+    <div class="container descrition pt-5">
+      <div class="row">
+        <div class="col">
+          <h5 class="text-uppercase">työkokemus</h5>
+        </div>
+        <div class="col-6">
+          <p class="item-header">
+            Atk-suunnittelija
+          <p>Uudenmaan tiepiiri
+          <p class="more">
+            Unix ja PC ylläpito. Projekteina mm. maalabran
+            automatisoitu tulosten käsittely ja konsulttilaskutusten
+            siirto koneelle.
+        </div>
+        <div class="col">
+          <small>
+            1983 - 1992 <br>
+            Helsinki
+          </small>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 offset-3">
+          <p class="item-header">
+            Atk-suunnittelija
+          <p>Uudenmaan sotilasläänin esikunta
+          <p class="more">
+            unix ja NT-ympäristöjen ylläpito
+        </div>
+        <div class="col">
+          <small>
+            1995 - 2000 <br>
+            Lohja
+          </small>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 offset-3">
+          <p class="item-header">
+            Helpdesk
+          <p>Idea-Uusilänsi
+          <p class="more">
+            Asiakkaiden avustaminen tietokone ongelmissa.
+        </div>
+        <div class="col">
+          <small>
+            2004 - 2005 <br>
+            Lohja
+          </small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3">
+          <p class="item-header">
+            Consultant
+          <p>it-innoo
+          <p class="more">
+            Kotisivujen kehittäminen ja ylläpito asiakkaille,
+            sekä it neuvontaa.
+        </div>
+        <div class="col">
+          <small>
+            2009 - <br>
+            Lohja
+          </small>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- AWARDS SECTION -->
+  <section id="awards">
+    <div class="container descrition pt-5">
+      <div class="row">
+        <div class="col">
+          <h5 class="text-uppercase">palkinnot</h5>
+        </div>
+        <div class="col-6">
+          <p class="item-header">
+            Kitaransoiton stipendi
+          <p>Lohjan musiikkiopisto
+        </div>
+        <div class="col">
+          <small>1977</small>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 offset-3">
+          <p class="item-header">
+            2. palkinto runonlausunnassa
+          <p>Lohjan kaupunki
+        </div>
+        <div class="col">
+          <small>1969</small>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="container-fluid description skillswrap pt-5">
+    <div class="row">
+      <div class="col offset-2">
+        <h5 class="text-uppercase">tiedot ja taidot</h5>
+      </div>
+      <div class="col-6">
+        <ul>
+          <li>c
+          <li>java
+          <li>python
+          <li>HTML5
+          <li>CSS3
+          <li>javascript
+          <li>react
+        </ul>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+  </section>
   <!--FOOTER DESCRIPTION -->
   <footer id="info" class="footerwrap pt-5">
     <div class="container">
@@ -293,5 +322,13 @@
       </div>
     </div>
   </footer>
-  <script src="https://kit.fontawesome.com/4e35c8f3be.js" crossorigin="anonymous">
-  </script>
+  <script src="https://kit.fontawesome.com/4e35c8f3be.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
