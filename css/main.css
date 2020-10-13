@@ -20,19 +20,23 @@ ul {
   list-style-type: none;
 }
 
+.navbar .nav-link {
+  color: white;
+}
 /* Global Values */
 .resume {
  background-color: #f2f2f2;
  color: #555;
  font: 300 16px Lato;
- padding-top: 50px;
+ height: 100%;
+ overflow: auto;
 }
-
+/*
 .section-header {
   color: #34495e;
   font-weight: 700;
 }
-
+*/
 .resume h5 {
   font-size: 15px;
 }
@@ -78,6 +82,7 @@ SECTION WRAPS
 
 .resume-about span {
   color: white;
+  font-size: smaller;
 }
 
 /* About Wrap */
