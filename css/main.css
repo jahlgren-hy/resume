@@ -1,0 +1,116 @@
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  font-family: "Raleway";
+  font-weight: 300;
+}
+
+/* Paragraph & Typographic */
+p {
+  line-height: 28px;
+  /* margin-bottom: 25px; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Global Values */
+.resume {
+ background-color: #f2f2f2;
+ color: #555;
+ font: 300 16px Lato;
+ padding-top: 50px;
+}
+
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+
+.resume h5 {
+  font-size: 15px;
+}
+
+.more {
+  color: #95a5a6;
+}
+
+/*--------------------------------------------------
+SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+.jumbotron {
+  background: #1cbcad url(../images/header-bg-4.jpg) no-repeat scroll center center;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 500px;
+  padding-top:150px;
+  width: 100%
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.jumbotron p,
+.jumbotron p a
+ {
+  color: white;
+}
+
+/* About Wrap */
+.resume-about {
+  background: #2c3e50;
+  color: white;
+}
+
+.resume-about h5 {
+  color: white;
+}
+
+.resume-about span {
+  color: white;
+}
+
+/* About Wrap */
+.resume-footer {
+  background: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.resume-footer p {
+  color: white;
+}
+
+.resume-footer h5 {
+  color: white;
+}
+
+.resume-footer a {
+  color: white;
+}
+
+
+.vcard a {
+  color: white;
+  font-size: 18px !important;
+  padding: 10px 0 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.fas,
+.resume-footer .fab {
+  font-size: 26px;
+  margin-left: 0;
+  padding: 10px;
+}
