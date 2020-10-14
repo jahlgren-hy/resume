@@ -46,7 +46,7 @@ SECTION WRAPS
 
 /* Header Wrap */
 .jumbotron {
-  background: #1cbcad url(../images/header-bg-4.jpg) no-repeat scroll center center;
+  background: #1cbcad url(../images/header-bg-4.webp) no-repeat scroll center center;
   text-align: center;
   margin: 0 auto;
   min-height: 500px;
