@@ -31,13 +31,8 @@ ul {
  height: 100%;
  overflow: auto;
 }
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-.resume h5 {
+
+.resume h2 {
   font-size: 15px;
 }
 
@@ -76,7 +71,7 @@ SECTION WRAPS
   color: white;
 }
 
-.resume-about h5 {
+.resume-about h2 {
   color: white;
 }
 
@@ -96,7 +91,7 @@ SECTION WRAPS
   color: white;
 }
 
-.resume-footer h5 {
+.resume-footer h2 {
   color: white;
 }
 
@@ -104,6 +99,110 @@ SECTION WRAPS
   color: white;
 }
 
+#education h3,
+#work h3 {
+  font-size: 15px;
+}
+
+#awards h3 {
+  font-size: 15px;
+}
+
+#skills h3,
+#works h3 {
+  font-size: 15px;
+}
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+/*
+.section-header {
+  color: #34495e;
+  font-weight: 700;
+}
+*/
+}
 
 .vcard a {
   color: white;
