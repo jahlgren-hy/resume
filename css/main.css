@@ -37,9 +37,13 @@ ul {
 }
 
 .more {
-  color: #95a5a6;
+  color: #696969;
+  font-style: oblique;
 }
 
+.badge-success {
+  background-color: #005555;
+}
 /*--------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
@@ -111,97 +115,6 @@ SECTION WRAPS
 #skills h3,
 #works h3 {
   font-size: 15px;
-}
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
-/*
-.section-header {
-  color: #34495e;
-  font-weight: 700;
-}
-*/
 }
 
 .vcard a {

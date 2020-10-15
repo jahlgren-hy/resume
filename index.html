@@ -15,8 +15,9 @@
   <link href="css/main.css" rel="stylesheet">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap" rel="stylesheet">
   <title>Jukka Ahlgren - CV</title>
 </head>
 
@@ -28,37 +29,36 @@
         Opiskelija | <a href="mailto:jukka@jahlgren.eu">
           jukka@jahlgren.eu</a>
     </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark overflow-auto">
+      <h2 class="d-none">Valikko</h2>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+        aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="nav-content">
+        <nav class="nav" aria-label="navigation">
+          <h2 class="d-none">Valikon sisältö</h2>
+          <a class="navbar-brand" href="#home" title="Home">
+            <i class="fas fa-home"></i>
+          </a>
+          <a class="nav-link" href="#about" title="About">
+            <i class="fas fa-user"></i>
+          </a>
+          <a class="nav-link" href="#resume-article" title="CV">
+            <i class="fas fa-file-alt"></i>
+          </a>
+          <a class="nav-link" href="#works" title="portfolio">
+            <i class="fas fa-briefcase"></i>
+          </a>
+          <a class="nav-link" href="#contact" title="Yhteystiedot">
+            <i class="fas fa-envelope-open"></i>
+          </a>
+        </nav>
+      </div>
+    </nav>
   </header>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark overflow-auto">
-    <header>
-      <h2 class="d-none">Valikko</h2>
-    </header>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
-      aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-center" id="nav-content">
-      <nav class="nav" aria-label="navigation">
-        <a class="navbar-brand" href="#home" title="Home">
-          <i class="fas fa-home"></i>
-        </a>
-        <a class="nav-link" href="#about" title="About">
-          <i class="fas fa-user"></i>
-        </a>
-        <a class="nav-link" href="#resume-article" title="CV">
-          <i class="fas fa-file-alt"></i>
-        </a>
-        <a class="nav-link" href="#works" title="portfolio">
-          <i class="fas fa-briefcase"></i>
-        </a>
-        <a class="nav-link" href="#contact" title="Yhteystiedot">
-          <i class="fas fa-envelope-open"></i>
-        </a>
-      </nav>
-    </div>
-  </nav>
 
   <main>
     <section id="about" class="resume-about pb-5 pt-5" title=" about">
@@ -270,7 +270,7 @@
             <h3 class="text-uppercase">portfolio</h3>
           </div>
           <div class="col-6">
-            <img src="images/it-innoo_small.webp" class="img-thumbnail" alt="it-innoo home page">
+            <img src="images/it-innoo_small.webp" class="img-thumbnail" alt="it-innoo Etusivu">
           </div>
           <div class="col">
             <p class="more">it-innoo
@@ -295,7 +295,7 @@
                 jukka@jahlgren.eu
               </a>
             </li>
-            <li><a href="https://jahlgren.eu" target="_blank">
+            <li><a href="https://jahlgren.eu" target="_blank" rel="noreferrer">
                 <i class="fas fa-globe"></i>
                 jahlgren.eu
               </a>
